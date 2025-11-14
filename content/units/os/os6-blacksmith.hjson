@@ -1,7 +1,7 @@
 type: legs
   name: Blacksmith
   description: Shoots a continuous jet of plasma and cluster frag artillery at enemy targets, setting them ablaze.
-  details: Not much is known about the fuel, but it appears to be highly [orange]volatile.
+  details: Not much is known about the fuel, but it appears to be highly volatile.
   health: 60500
   armor: 25
   speed: 0.8
