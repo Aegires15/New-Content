@@ -1,0 +1,40 @@
+type: legs
+  name: Blacksmith
+  description: Shoots a continuous jet of plasma and cluster frag artillery at enemy targets, setting them ablaze.
+  details: Not much is known about the fuel, but it appears to be highly [orange]volatile.
+  health: 60500
+  armor: 25
+  speed: 0.8
+  legCount: 10
+  legLength: 82
+  rotateSpeed: 0.35
+  hitSize: 48
+  immunities: [
+  blasted
+  burning
+  melting
+  wet
+]
+ weapons: [
+  {
+  name: blacksmith-torch
+    x: 0
+    y: 0
+    rotate: true
+    rotateSpeed: 3
+    continuous: true
+    alwaysContinuous: true
+    shootStatus: {
+    name: Blacksmith Slow
+      speedMultiplier: 0.35
+      healthMultiplier: 1.1
+      show: false
+      }
+    bullet: {
+type: ContinuousFlameBulletType
+  damage: 200
+  length: 230
+  width: 15
+  status: melting
+  }
+  }
