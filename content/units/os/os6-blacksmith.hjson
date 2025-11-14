@@ -1,3 +1,4 @@
+{
 type: legs
   name: Blacksmith
   description: Shoots a continuous jet of plasma and cluster frag artillery at enemy targets, setting them ablaze.
@@ -39,3 +40,4 @@ type: ContinuousFlameBulletType
   }
   }
 ]
+}
