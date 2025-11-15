@@ -22,7 +22,7 @@ type: legs
     x: 0
     y: 0
     rotate: true
-    rotateSpeed: 3
+    rotateSpeed: 0.35
     continuous: true
     alwaysContinuous: true
     shootStatus: {
