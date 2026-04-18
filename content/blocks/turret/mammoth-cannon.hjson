@@ -1,0 +1,28 @@
+type: LaserTurret
+name: Erebus
+description: Fires a continuous single target laser at enemy targets.
+details: DEATH AND DESTRUCTION
+size: 7
+range: 640
+rotateSpeed: 0.35
+health: 20000
+consumes: {
+    power: 50
+    liquid: {
+        liquid: poison
+        amount: 2
+        optional: false
+        booster: false
+    }
+}
+reload: 0
+shootType: {
+    type: PointLaserBulletType
+    damage: 600
+    lightning: 7
+    lightningLength: 18
+    lightningDamage: 60
+    maxRange: 640
+    color: bd42ff
+}
+category: turret
