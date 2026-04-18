@@ -25,3 +25,6 @@ shootType: {
     color: bd42ff
 }
 category: turret
+requirements: [
+heavy-alloy/400000
+]
