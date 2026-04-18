@@ -1,4 +1,4 @@
-type: LaserTurret
+type: ContinuousTurret
 name: Erebus
 description: Fires a continuous single target laser at enemy targets.
 details: DEATH AND DESTRUCTION
@@ -6,6 +6,7 @@ size: 7
 range: 640
 rotateSpeed: 0.35
 health: 20000
+shootSound: loopPulse
 consumes: {
     power: 50
     liquid: {
