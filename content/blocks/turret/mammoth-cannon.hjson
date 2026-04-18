@@ -15,7 +15,6 @@ consumes: {
         booster: false
     }
 }
-reload: 0
 shootType: {
     type: PointLaserBulletType
     damage: 600
