@@ -6,7 +6,7 @@ size: 7
 range: 640
 rotateSpeed: 0.35
 health: 20000
-shootSound: loopPulse
+loopSound: loopPulse
 consumes: {
     power: 50
     liquid: {
