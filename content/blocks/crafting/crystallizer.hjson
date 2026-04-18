@@ -13,7 +13,8 @@
   ambientSound: freezerloop
   ambientSoundVolume: 0.04
   attribute: crystal
-  baseEfficiency: 1
+  baseEfficiency: 0
+  minEfficiency: 0.01
   maxBoost: 6
   boostScale: 0.25
   craftEffect:

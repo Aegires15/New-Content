@@ -84,10 +84,6 @@
     ]
     objectives: [
       {
-        type: Produce
-        content: slag
-      }
-      {
         type: SectorComplete
         preset: scorchedSkalelands
       }
