@@ -1,6 +1,6 @@
-type: ContinuousTurret
+type: ItemTurret
 name: Erebus
-description: Fires a continuous single target laser at enemy targets.
+description: Fires an electromagnetically accelerated projectile at enemy targets.
 details: DEATH AND DESTRUCTION
 size: 7
 range: 640
@@ -16,14 +16,19 @@ consumes: {
         booster: false
     }
 }
-shootType: {
-    type: PointLaserBulletType
-    damage: 600
-    lightning: 7
-    lightningLength: 18
-    lightningDamage: 60
-    maxRange: 640
-    color: bd42ff
+ammoTypes: {
+selevite: {
+type: RailBulletType
+length: 640
+width: 15
+frontColor: bd42ff
+backColor: 6100e0
+damage: 4000
+lightningCone: 5
+lightning: 4
+lightningDamage: 1000
+lightningLength: 80
+}
 }
 category: turret
 requirements: [
