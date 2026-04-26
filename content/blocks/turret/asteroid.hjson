@@ -10,6 +10,7 @@
   range: 160
   targetAir: true
   targetGround: true
+category: turret
   rotateSpeed: 3
   shootSound: hardExplosion
   coolantMultiplier: 5
