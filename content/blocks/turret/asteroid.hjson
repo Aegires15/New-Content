@@ -246,30 +246,26 @@
  parts: [
     {
       suffix: -l-arm
-      blending: additive
       outline: true
 under: true
       progress: recoil
-moveY: -1
+moveY: -2
     }
     {
       suffix: -r-arm
-      blending: additive
       outline: true
 under: true
       progress: recoil
-moveY: -1
+moveY: -2
     }
 {
 suffix: -l-shoulder
-blending: additive
 progress: recoil
 moveY: -1.5
 moveX: -2
 }
 {
 suffix: -r-shoulder
-blending: additive
 progress: recoil
 moveY: -1.5
 moveX: 2
