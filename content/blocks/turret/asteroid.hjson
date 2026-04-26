@@ -245,7 +245,7 @@
     basePrefix: clexon-
  parts: [
     {
-      suffix: -l-barrel
+      suffix: -l-arm
       blending: additive
       outline: true
 under: true
@@ -253,7 +253,7 @@ under: true
 moveY: -1
     }
     {
-      suffix: -r-barrel
+      suffix: -r-arm
       blending: additive
       outline: true
 under: true
