@@ -1,6 +1,6 @@
 {
   name: newunits
-  displayName: New Content
+  displayName: New Content (Incite Fork)
   description:
     '''
     My first mod! It adds in a lot of new vanilla branches, but I'll leave you to finding out what those are.
@@ -14,6 +14,7 @@
   subtitle: "Adds [yellow]new content[]."
   version: 8x1x13
   minGameVersion: 154
+hideBrowser: true
   contentOrder:
   [
     // Serpulo
