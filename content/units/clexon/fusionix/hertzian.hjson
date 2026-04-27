@@ -1,0 +1,49 @@
+type: flying
+  localizedName: Hertzian
+  description: No description provided.
+  health: 8000
+  speed: 0.8
+  armor: 11
+  hitSize: 38
+  abiliites: [
+  {
+  type: MoveEffectAbility
+    color: adffef
+    x: 10
+    rotation: 180
+    y: -15
+    effect: {
+    type: ParticleEffect
+      line: true
+      cone: 30
+      lifetime: 13
+      colorFrom: adffef
+      colorTo: 008acf
+    }
+}
+{
+type: MoveEffectAbility
+  color: adffef
+  rotation: 180
+  x: -10
+  y: -15
+  effect: {
+    type: ParticleEffect
+      line: true
+      cone: 30
+      lifetime: 13
+      colorFrom: adffef
+      colorTo: 008acf
+    }
+  }
+{
+type: RegenAbility
+  amount: 1.5
+  }
+{
+type: SupressionFieldAbility
+  color: adffef
+  particleColor: adffef
+  effectColor: adffef
+  }
+]
