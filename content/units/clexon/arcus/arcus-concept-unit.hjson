@@ -4,6 +4,8 @@ speed: 2
   health: 600
 flying: true
 outlineColor: 13111cff
+faceTarget: false
+omniMovement: false
   armor: 4
   weapons: [
   {
