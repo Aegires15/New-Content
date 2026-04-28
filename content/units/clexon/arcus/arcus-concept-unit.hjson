@@ -52,6 +52,7 @@ shootStatusDuration: 10
 continuous: true
   bullet: {
   type: ContinuousFlameBulletType
+recoil: 0.5
     colors: [
     "6e0033",
     "b82e2e",
@@ -80,6 +81,7 @@ shootStatusDuration: 10
 continuous: true
   bullet: {
   type: ContinuousFlameBulletType
+recoil: 0.5
     colors: [
     "6e0033",
     "b82e2e",
