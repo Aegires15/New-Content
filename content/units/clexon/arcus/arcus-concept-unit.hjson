@@ -17,71 +17,13 @@ omniMovement: false
     reload: 240
     shootStatus: {
 name: arcus-blink
-  speedMultiplier: 10
+  speedMultiplier: 15
   }
 shootStatusDuration: 10
   shootSound: none
 continuous: true
   bullet: {
   type: ContinuousFlameBulletType
-    colors: [
-    "6e0033",
-    "b82e2e",
-    "ffffff",
-    "ffffff",
-    "ffffff",
-    ]
-    damage: 0
-    length: 48
-    width: 2.25
-  }
-}
-{
-  name: none
-    x: 0
-    y: 0
-    baseRotation: 90
-    mirror: false
-    reload: 240
-    shootStatus: {
-name: arcus-blink-side1
-  speedMultiplier: 10
-  }
-shootStatusDuration: 10
-  shootSound: none
-continuous: true
-  bullet: {
-  type: ContinuousFlameBulletType
-recoil: 0.5
-    colors: [
-    "6e0033",
-    "b82e2e",
-    "ffffff",
-    "ffffff",
-    "ffffff",
-    ]
-    damage: 0
-    length: 48
-    width: 2.25
-  }
-}
-{
-  name: none
-    x: 0
-    y: 0
-    baseRotation: 270
-    mirror: false
-    reload: 240
-    shootStatus: {
-name: arcus-blink-side2
-  speedMultiplier: 10
-  }
-shootStatusDuration: 10
-  shootSound: none
-continuous: true
-  bullet: {
-  type: ContinuousFlameBulletType
-recoil: 0.5
     colors: [
     "6e0033",
     "b82e2e",
