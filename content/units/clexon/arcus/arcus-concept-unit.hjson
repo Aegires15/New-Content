@@ -20,11 +20,11 @@ shootStatusDuration: 10
   bullet: {
   type: ContinuousFlameBulletType
     colors: [
-    6e0033,
-    b82e2e,
-    ffffff,
-    ffffff,
-    ffffff,
+    "6e0033",
+    "b82e2e",
+    "ffffff",
+    "ffffff",
+    "ffffff",
     ]
     damage: 0
     length: 48
