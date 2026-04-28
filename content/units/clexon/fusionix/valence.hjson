@@ -7,10 +7,10 @@ outlineColor: 13111cff
   abilities: [
 {
 type: EnergyFieldAbility
-  range: 80
+  range: 120
 damage: 35
   reload: 60
-healPercent: 0
+healPercent: 0.5
 color: adffef
   }
 ]
