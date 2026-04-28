@@ -3,6 +3,7 @@ name: Arcus Concept Unit
 speed: 2
   health: 600
 flying: true
+outlineColor: 13111cff
   armor: 4
   weapons: [
   {
