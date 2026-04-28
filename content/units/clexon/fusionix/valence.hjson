@@ -3,6 +3,7 @@ type: flying
   flying: true
   hitSize: 40
 faceTarget: false
+outlineColor: 13111cff
   abilities: [
 {
 type: EnergyFieldAbility
