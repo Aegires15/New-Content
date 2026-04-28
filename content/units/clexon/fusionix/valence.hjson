@@ -1,0 +1,35 @@
+type: flying
+  name: Valence
+  flying: true
+  hitSize: 40
+faceTarget: false
+  abilities: [
+{
+type: EnergyFieldAbility
+  range: 80
+damage: 35
+  reload: 60
+healPercent: 0
+color: adffef
+  }
+]
+speed: 0.85
+  health: 6500
+  armor: 5
+engineSize: 0
+  engines: [
+  {
+x: 12
+  y: -19.5
+  rotation: 315
+  radius: 4
+  }
+{
+x: -12
+  y: -19.5
+  rotation: 225
+  radius: 4
+  }
+]
+  weapons: [
+]
