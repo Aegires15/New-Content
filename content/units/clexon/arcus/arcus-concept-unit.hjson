@@ -1,7 +1,8 @@
 type: flying
 name: Arcus Concept Unit
-speed: 3
+speed: 2
   health: 600
+flying: true
   armor: 4
   weapons: [
   {
