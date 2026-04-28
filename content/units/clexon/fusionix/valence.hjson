@@ -1,7 +1,7 @@
 type: flying
   name: Valence
   flying: true
-  hitSize: 40
+  hitSize: 36
 faceTarget: false
 outlineColor: 13111cff
   abilities: [
