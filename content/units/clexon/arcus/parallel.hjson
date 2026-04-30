@@ -1,0 +1,35 @@
+type: flying
+name: Parallel
+speed: 2.5
+  health: 650
+  hitSize: 16
+flying: true
+faceTarget: false
+omniMovement: false
+  armor: 6
+  itemCapacity: 50
+  drawCell: false
+  outlines: false
+  weapons: [
+{
+name: none
+  x: 0
+  y: 0
+  mirror: true
+  reload: 30
+  shootSound: lasershot
+bullet: {
+type: LaserBulletType
+  colors: [
+  6e0033
+  b82e2e
+  ffffff
+  ]
+  damage: 50
+  pierce: true
+  length: 160
+  pierceCap: 4
+  armorMultiplier: 0.75
+  }
+}
+  ]
